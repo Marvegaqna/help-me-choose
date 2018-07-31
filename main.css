@@ -1,0 +1,87 @@
+html{
+  height: 100%
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  background: linear-gradient(#015E89, #187F7A);
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  font-family: Century Gothic, sans-serif;
+  color: #00fff5;
+  text-shadow: 0 0 10px #cfa117;
+}
+
+.inputSection {
+  margin: 50px 0px 80px 0px;
+  width: 400px
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-top: 10px;
+}
+
+input {
+background-color: white;
+opacity: 0.10;
+border-radius: 28px;
+border-style: none;
+font-size: 16px;
+font-family: Century Gothic, sans-serif;
+text-align: center;
+height: 20px;
+}
+
+
+.addOption {
+  margin-top: 10px;
+  background-color: white;
+  opacity: 0.10;
+  border-radius: 28px;
+  border-style: none;
+  font-size: 16px;
+  font-family: Century Gothic, sans-serif;
+  text-align: center;
+  height: 20px;
+  margin: 10px 0px 80px 0px;
+  width: 400px
+}
+
+.go {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 70px;
+  background: none;
+  border: none;
+  font-size: 40px;
+  color: #00fff5;
+  opacity: 0.1;
+  align-items: center;
+  line-height: 50%;
+  border-radius: 70px;
+  text-transform: uppercase;
+  font-family: Century Gothic, sans-serif;
+}
+
+.go:hover {
+  opacity: 1.0;
+  text-shadow: 0 0 10px #00fff5;
+}
