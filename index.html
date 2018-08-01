@@ -13,6 +13,34 @@
       </div>
       <button class="addOption">..or..</button>
     </div>
+    <div class="resultSection"></div>
     <button class="go">Go!</button>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+
+    var linn = 'ost';
+
+
+      jQuery(document).ready(function() {});
+      jQuery(function() {});
+      $(function() {
+        $('.resultSection').hide()
+
+        var enter_handler = function(event) {
+          if (event.which === 9) {
+            add_option();
+          }
+        };
+
+        var add_option = function() {
+          var element = $('<input placeholder="that"></input>').keydown(enter_handler);
+          $('.inputs').append(element);
+        }
+
+        $('.addOption').click(add_option)
+        $('input').keydown(enter_handler);
+      })
+    </script>
   </body>
 </html>
