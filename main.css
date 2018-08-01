@@ -85,3 +85,15 @@ input::placeholder {
   opacity: 1.0;
   text-shadow: 0 0 10px #00fff5;
 }
+
+.resultSection {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: Century Gothic, sans-serif;
+  color: #ff9933;
+  text-shadow: 0 0 20px #ff9933;
+  text-transform: uppercase;
+}
